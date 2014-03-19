@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.yougotadoodle"
+        versionCode = "11" 
+        version     = "1.1.0" >
+
+    <name>You Got A Doodle!</name>
+
+    <gap:plugin name="com.phonegap.plugins.facebookconnect">
+        <param name="APP_ID" value="108330069340139" />
+        <param name="APP_NAME" value="yougotadoodle" />
+    </gap:plugin>
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    
+    <description>
+        Send doodles to your friends!
+    </description>
+
+    <preference name="permissions" value="none"/>
+
+    <icon src="img/doodlehi114.png"/>
+
+    <access origin="*"  />
+    <access origin="http://yougotadoodle.appspot.com"  />
+    <access origin="https://yougotadoodle.appspot.com"  />
+
+</widget>

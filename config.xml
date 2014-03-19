@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.monadpad.bob4mnsos"
+        versionCode = "10" 
+        version     = "1.1.0" >
+
+    <name>Bob 4 MN SOS</name>
+
+    <description>
+        The App for Bob's Campaign for Secretary of State of Minnesota
+    </description>
+
+    <preference name="permissions" value="none"/>
+
+    <access origin="*"  />
+
+</widget>
